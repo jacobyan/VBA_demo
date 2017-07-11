@@ -89,8 +89,8 @@ For startRange = 0 To 95 Step 1
     End If
     Next startRange
     
-                        Set cusLayout = PPApp.ActivePresentation.SlideMaster.CustomLayouts(7)  'Ω·Œ≤
-                        PPApp.ActivePresentation.Slides.AddSlide PPApp.ActivePresentation.Slides.Count + 1, cusLayout
+    Set cusLayout = PPApp.ActivePresentation.SlideMaster.CustomLayouts(7)  'Ω·Œ≤
+    PPApp.ActivePresentation.Slides.AddSlide PPApp.ActivePresentation.Slides.Count + 1, cusLayout
 
 
 
